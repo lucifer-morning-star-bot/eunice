@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURELLE - Cart</title>
+    <link rel="stylesheet" href="aurelle.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="pic/aur.jpeg">AURELLE</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="lookbook.html">Lookbook</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="vip.html">VIP</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="icons">
+                <a href="cart.html">Cart</a>
+                <a href="vip.html">Wishlist</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Hero / Title -->
+    <section class="page-hero">
+        <h1>Shopping Cart</h1>
+        <p>Review your items and proceed to checkout</p>
+    </section>
+
+    <!-- Cart Items -->
+    <section class="cart-items">
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="product-info">
+                        <img src="images/product1.jpg" alt="Product 1">
+                        <span>Luxury Dress - Spring Bloom</span>
+                    </td>
+                    <td>$250</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$250</td>
+                    <td><button class="btn-remove">X</button></td>
+                </tr>
+                <tr>
+                    <td class="product-info">
+                        <img src="images/product2.jpg" alt="Product 2">
+                        <span>Evening Gown - Golden Hour</span>
+                    </td>
+                    <td>$320</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$320</td>
+                    <td><button class="btn-remove">X</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Cart Summary -->
+        <div class="cart-summary">
+            <h3>Cart Summary</h3>
+            <p>Subtotal: $570</p>
+            <p>Shipping: Free</p>
+            <p><strong>Total: $570</strong></p>
+            <a href="checkout.html" class="btn">Proceed to Checkout</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 AURELLE. All Rights Reserved.</p>
+            <ul class="footer-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="policies.html">Policies</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
